@@ -65,6 +65,9 @@ pattern = re.compile(r'\d\d\d[-.]\d\d\d[-.]\d\d\d\d')
 # r'Mr\.?\s[A-Z]\w*' 0 or more word characters after capital letter after space
 # r'M(r|s|rs)\.?\s[A-Z]\w*' or r'(Mr|Ms|Mrs)\.?\s[A-Z]\w*'
 
+### Flags
+# re.compile(r'start', re.IGNORECASE)
+
 with open('data.txt', mode='r', encoding='utf-8') as f:
     contents = f.read()
     matches = pattern.finditer(contents)
