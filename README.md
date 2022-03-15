@@ -3,7 +3,7 @@ Scripts containing guides to regular expressions
 
 ## Run
 ```
-python [filename]
+python FILENAME.py
 ```
 
 Before running scripts uncomment print statements to see the results.
